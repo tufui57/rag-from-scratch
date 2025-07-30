@@ -21,8 +21,8 @@ def get_vectorstore(splits, embed_model_id = "cl-nagoya/ruri-v3-310m"):
                                     embedding=embd,)
 
 set_envvar()
-llm=AzureChatOpenAI(model_name="gpt-4o-mini", temperature=0)
-
+# llm=AzureChatOpenAI(model_name="gpt-4o-mini", temperature=0)
+llm=AzureChatOpenAI(model_name=deployment_name, temperature=0)
 class CustomEmbeddings:
     def __init__(self,):
     

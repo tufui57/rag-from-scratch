@@ -1,4 +1,10 @@
-LANGCHAIN_API_KEY = 'xxx'
-OPENAI_API_VERSION = '2024-02-15-preview'
-AZURE_OPENAI_ENDPOINT = 'xxx'
-AZURE_OPENAI_API_KEY = "xxx"
+LANGCHAIN_API_KEY = 'xxxx'
+# OPENAI_API_VERSION = 'xxxx'
+# deployment_name = 'xxxx'
+# AZURE_OPENAI_ENDPOINT = 'xxxx'
+# AZURE_OPENAI_API_KEY = 'xxxx'
+
+deployment_name = 'xxxx'
+AZURE_OPENAI_ENDPOINT = 'xxxx'
+OPENAI_API_VERSION = 'xxxx'
+AZURE_OPENAI_API_KEY = 'xxxx'
